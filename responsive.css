@@ -1,0 +1,270 @@
+@media all and (max-width: 1200px) {
+  .features figure {
+    flex-direction: column;
+  }
+
+  .features figure img {
+    width: 40%;
+  }
+
+  .contact {
+    width: 95%;
+  }
+}
+
+@media all and (max-width: 1000px) {
+  nav .about {
+    display: none;
+  }
+  ul li a {
+    margin: 0 15px;
+  }
+
+  main {
+    width: 92%;
+  }
+}
+
+@media all and (max-width: 990px) {
+  main {
+    width: 70%;
+    flex-direction: column;
+  }
+
+  .sea-view {
+    width: 100%;
+  }
+
+  .hero {
+    width: 100%;
+    margin-top: 40px;
+  }
+
+  .features {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .features figure {
+    flex-direction: row;
+  }
+
+  .features figure img {
+    width: 10%;
+  }
+  .video {
+    width: 85%;
+  }
+  .video h1 {
+    width: 60%;
+  }
+
+  .award {
+    flex-direction: column;
+    margin-top: 30%;
+  }
+
+  .card {
+    margin: 20px 0;
+  }
+
+  .deal {
+    width: 70%;
+  }
+
+  .deal-header-section {
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    align-items: flex-start;
+  }
+
+  #deal-header {
+    width: 60%;
+  }
+
+  .deal-section {
+    flex-direction: column;
+  }
+
+  .deal-features {
+    width: 100%;
+    margin: 15px 0;
+  }
+
+  .deal-pic {
+    width: 100%;
+    margin: 15px 0;
+  }
+
+  .deal-info {
+    width: 100%;
+    margin: 15px 0;
+  }
+
+  .property-header {
+    width: 50%;
+  }
+
+  .properties {
+    grid-template-columns: repeat(2, 50%);
+  }
+
+  .contact {
+    width: 80%;
+  }
+
+  .contact-header h1 {
+    width: 50%;
+    margin-bottom: 4%;
+  }
+
+  .contact-body {
+    flex-direction: column;
+  }
+
+  .contact-details {
+    width: 100%;
+  }
+
+  iframe {
+    display: none;
+  }
+
+  aside {
+    padding: 30px 25px;
+    margin-bottom: 30px;
+  }
+
+  aside i {
+    margin-right: 15px;
+  }
+
+  .contact-body form {
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 900px){
+  header, #section{
+    height: fit-content;
+  }
+
+  .award, section{
+    margin-top: 10%;
+  }
+}
+
+@media all and (max-width: 800px) {
+  .nav-bar ul {
+    display: none;
+  }
+}
+
+@media all and (max-width: 760px) {
+  .features figure img {
+    width: 15%;
+  }
+  #section {
+    margin-bottom: 100px;
+  }
+
+  #video-frame a {
+    padding: 30px 10px;
+    top: 40%;
+  }
+
+  #video-frame i {
+    padding: 11px 13px;
+  }
+
+  .award, section{
+    margin-top: 5%;
+  }
+
+  .contact-header h1 {
+    width: 60%;
+  }
+
+  .contact-card {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media all and (max-width: 700px) {
+  .properties {
+    grid-template-columns: 100%;
+  }
+
+}
+
+@media all and (max-width: 600px) {
+  #section {
+    margin-bottom: 100px;
+  }
+
+  .deal {
+    width: 80%;
+  }
+
+  #deal-header {
+    width: 100%;
+  }
+
+  .deal-header-links button {
+    margin-top: 10px;
+  }
+
+  .property-header {
+    width: 80%;
+  }
+
+  .contact-header h1 {
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 400px) {
+  .content {
+    width: 90%;
+  }
+  
+  main {
+    width: 85%;
+  }
+
+  .features figure img {
+    width: 20%;
+  }
+
+  #section {
+    margin-bottom: 50px;
+  }
+
+  .video {
+    width: 100%;
+  }
+
+  .video h1 {
+    width: 90%;
+  }
+
+  #video-frame img {
+    width: 95%;
+  }
+
+  .award {
+    margin-top: 20%;
+  }
+  .property-header {
+    width: 90%;
+  }
+  .property-section {
+    width: 100%;
+  }
+
+  .contact-header h1 {
+    width: 90%;
+  }
+}
