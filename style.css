@@ -533,7 +533,6 @@ figcaption h3 {
 .properties {
   display: grid;
   grid-template-columns: repeat(3, 34%);
-  /* grid-gap: 2%; */
 }
 
 .house {
